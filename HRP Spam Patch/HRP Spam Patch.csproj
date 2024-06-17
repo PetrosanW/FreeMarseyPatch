@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>HRP_Spam_Patch</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\Desktop\dll\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Content.Client">
+      <HintPath>..\..\..\..\Desktop\dll\Content.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Content.Shared">
+      <HintPath>..\..\..\..\Desktop\dll\Content.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Content.Shared.Database">
+      <HintPath>..\..\..\..\Desktop\dll\Content.Shared.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Robust.Client">
+      <HintPath>..\..\..\..\Desktop\dll\Robust.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Robust.NetSerializer">
+      <HintPath>..\..\..\..\Desktop\dll\Robust.NetSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="Robust.Shared">
+      <HintPath>..\..\..\..\Desktop\dll\Robust.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Robust.Shared.Maths">
+      <HintPath>..\..\..\..\Desktop\dll\Robust.Shared.Maths.dll</HintPath>
+    </Reference>
+    <Reference Include="SpaceWizards.Lidgren.Network">
+      <HintPath>..\..\..\..\Desktop\dll\SpaceWizards.Lidgren.Network.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
