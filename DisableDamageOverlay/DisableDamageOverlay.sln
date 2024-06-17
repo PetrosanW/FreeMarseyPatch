@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisableDamageOverlay", "DisableDamageOverlay\DisableDamageOverlay.csproj", "{817D0DCD-64BB-41A4-A77B-4E3E9797AF85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{817D0DCD-64BB-41A4-A77B-4E3E9797AF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{817D0DCD-64BB-41A4-A77B-4E3E9797AF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{817D0DCD-64BB-41A4-A77B-4E3E9797AF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{817D0DCD-64BB-41A4-A77B-4E3E9797AF85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
