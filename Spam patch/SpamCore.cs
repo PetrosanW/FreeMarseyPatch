@@ -2,6 +2,12 @@
 using Content.Shared.Administration;
 using Robust.Shared.Console;
 
+public static class SubverterPatch
+{
+    public static string Name = "SpamPatch";
+    public static string Description = "by Catlisan";
+}
+
 namespace SimpleCommand.Commands
 {
     [AnyCommand]
