@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+		<PackageReference Include="Lib.Harmony" Version="2.3.0-prerelease.2" />
+    <Reference Include="Content.Client">
+      <HintPath>..\..\Content.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Content.Shared">
+      <HintPath>..\..\Content.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Content.Shared.Database">
+      <HintPath>..\..\Content.Shared.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Robust.Client">
+      <HintPath>..\..\Robust.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Robust.Shared">
+      <HintPath>..\..\Robust.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Robust.Shared.Maths">
+      <HintPath>..\..\Robust.Shared.Maths.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
