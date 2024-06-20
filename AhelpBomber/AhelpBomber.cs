@@ -65,7 +65,10 @@ public class SpamAhelpCommand : IConsoleCommand
     }
 }
 
-
+/// <summary>
+///     Не дописано
+/// </summary>
+/*
 [AnyCommand]
 public class TestCommand : IConsoleCommand
 {
@@ -94,3 +97,4 @@ public class TestCommand : IConsoleCommand
         }
     }
 }
+*/
